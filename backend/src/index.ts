@@ -1,4 +1,4 @@
-import { Connection } from "@database/config/connection";
+// import { Connection } from "@database/config/connection";
 import express from "express";
 
 function bootstrap() {
@@ -10,8 +10,8 @@ function bootstrap() {
     app.listen(3000);
 }
 
-Connection.initialize()
-.then(() => console.log("initialized."))
-.catch(err => console.log(err));
+// Connection.initialize()
+// .then(() => console.log("initialized."))
+// .catch(err => console.log(err));
 
-bootstrap()
+// bootstrap()
