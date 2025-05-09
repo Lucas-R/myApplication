@@ -14,4 +14,4 @@ function bootstrap() {
 // .then(() => console.log("initialized."))
 // .catch(err => console.log(err));
 
-// bootstrap()
+bootstrap();

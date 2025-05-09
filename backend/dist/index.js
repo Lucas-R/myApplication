@@ -16,4 +16,4 @@ function bootstrap() {
 // Connection.initialize()
 // .then(() => console.log("initialized."))
 // .catch(err => console.log(err));
-// bootstrap()
+bootstrap();
