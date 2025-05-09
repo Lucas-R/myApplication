@@ -1,0 +1,21 @@
+{
+  "name": "myapplication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "docker compose --env-file .env.development up --build -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucas-R/myApplication.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Lucas-R/myApplication/issues"
+  },
+  "homepage": "https://github.com/Lucas-R/myApplication#readme"
+}
