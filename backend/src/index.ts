@@ -7,6 +7,9 @@ function bootstrap() {
     app.get("/", (req, res) => {
         res.status(200).json({ data: "Hello world." });
     });
+    app.get("/page", (req, res) => {
+        res.status(200).json({ data: "Page." });
+    });
     app.listen(3000);
 }
 
